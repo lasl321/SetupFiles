@@ -15,7 +15,7 @@ fi
 
 git clone https://github.com/lasl321/DotFiles.git $FILES_HOME
 cp $FILES_HOME/Vim/_vimrc ~/.vimrc
-cp -R $FILES_HOME/Vim/vimfiles ~/.vim
+cp -R $FILES_HOME/Vim/vimfiles/* ~/.vim
 
 if [ ! -e ~/.vimrc ]
 then
